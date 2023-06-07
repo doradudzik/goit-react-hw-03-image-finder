@@ -1,0 +1,28 @@
+.galleryItem {
+    max-width: calc(25% - 20px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.galleryItem__card {
+    overflow: hidden;
+    height: 300px;
+    width: 455px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.galleryItem__card:hover,
+.galleryItem__card:focus {
+    transform: scale(0.98);
+}
+
+.galleryItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
