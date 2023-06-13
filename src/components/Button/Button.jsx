@@ -6,7 +6,7 @@ class Button extends Component {
     const { loadMoreBtn } = this.props;
     return (
       <div className={css.buttonContainer}>
-        <button className={css.button} onClick={loadMoreBtn} id="loadMoreBtn">
+        <button className={css.button} onClick={loadMoreBtn}>
           Load more
         </button>
       </div>
